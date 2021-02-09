@@ -5,9 +5,6 @@ section#hire {
   width: 40%;
 }
 body {
-  font-size: 62.5%;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
   color: #b6b6b6;
 }
 body section {
@@ -21,7 +18,7 @@ body section {
 }
 body section h1 {
   margin-bottom: 40px;
-  font-size: 4em;
+  font-size: 3em;
   text-transform: uppercase;
   font-family: "Lato", sans-serif;
   font-weight: 100;
@@ -145,3 +142,9 @@ form input[type="submit"]:focus {
   outline: none;
   background: #cd6302;
 }
+
+span#contact-form {
+  width: 100%;
+}
+
+/* span id="contact-form" */

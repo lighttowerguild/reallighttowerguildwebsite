@@ -73,7 +73,7 @@ h2.mission {
 }
 
 /* The Modal (background) */
-.modal { 
+.modal {
   position: absolute;
   display: none; /* Hidden by default */
   z-index: 1; /* Sit on top */
@@ -140,6 +140,8 @@ button.modal-button {
   border: none;
   outline: none;
   color: #fff;
+  font-size: 3rem;
+  font-family: "Open Sans Condensed", sans-serif;
   /* font-size: 1.5rem;
   margin: 1em; */
 }
@@ -209,21 +211,6 @@ button.modal-button:hover {
   color: white;
 }
 
-/* .modal-body {
-  text-align: left;
-  padding: 2px 16px;
-  color: white;
-}
-
-.modal-footer {
-  padding: 2px 16px;
-  color: white;
-} */
-
-img {
-  border-radius: 50%;
-}
-
 div.grid-container {
   display: grid;
   grid-template-columns: auto auto;
@@ -241,7 +228,7 @@ div.grid-item {
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
-  background-color: transparent;
+  background-color: black;
   width: 250px;
   height: 250px;
   float: left;

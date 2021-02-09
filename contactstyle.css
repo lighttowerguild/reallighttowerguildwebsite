@@ -115,6 +115,7 @@ form .field:hover label {
   width: 18%;
   background: #313a3d;
   color: white;
+  opacity: 0;
 }
 form input[type="submit"] {
   background: #fd9638;

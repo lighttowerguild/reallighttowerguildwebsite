@@ -86,6 +86,7 @@ h2.mission {
   color: #fff;
   text-align: left;
   margin: auto;
+  padding-bottom: 2em;
 }
 
 /* Modal Content */
@@ -160,7 +161,6 @@ div.modal-body ul li {
 }
 div.modal-footer {
   background-color: #111;
-  padding: 2px 16px;
   color: white;
 }
 
@@ -207,7 +207,6 @@ button.modal-button:hover {
 }
 
 .modal-header {
-  padding: 2px 16px;
   color: white;
 }
 
@@ -292,4 +291,7 @@ img.team-pic {
 
 section#hire {
   margin-left: 100px;
+  min-width: 400px;
+  max-width: fit-content;
 }
+

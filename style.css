@@ -286,6 +286,10 @@ div.grid-item {
   clear: both;
 }
 
+img.team-pic {
+  border-radius: 50%;
+}
+
 section#hire {
   margin-left: 100px;
 }
